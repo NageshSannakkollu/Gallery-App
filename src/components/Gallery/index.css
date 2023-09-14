@@ -1,0 +1,23 @@
+/* Write your code here. */
+.app-container {
+  padding: 50px 80px;
+  height: 100vh;
+}
+
+.image {
+  height: 400px;
+  width: 95%;
+  background-size: 100%;
+}
+
+@media screen and(min-width:768px) {
+  .image {
+    height: 100px;
+  }
+}
+
+.thumbnail-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
